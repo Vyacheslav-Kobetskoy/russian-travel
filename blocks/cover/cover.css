@@ -1,0 +1,16 @@
+.cover {
+
+  background-image: url(../../images/cover-trains.jpg);
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 0.8;
+  transition: opacity 1s ease;
+
+}
+.cover:hover{
+  opacity: 0.3;
+
+}
