@@ -1,7 +1,7 @@
-.footer__link-list{
-display: flex;
-flex-direction: row;
-list-style-type: none;
-padding: 92px 48px 24px 48px;
-margin: 0;
+.footer__link-list {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  padding: 92px 48px 24px 48px;
+  margin: 0;
 }
