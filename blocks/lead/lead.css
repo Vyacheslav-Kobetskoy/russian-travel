@@ -1,7 +1,13 @@
-.lead{
+.lead {
   display: flex;
   flex-direction: column;
   align-items: center;
   max-width: 984px;
   margin: 0 auto;
+}
+
+@media (max-width: 1280px) {
+  .lead {
+    max-width: 928px;
+  }
 }

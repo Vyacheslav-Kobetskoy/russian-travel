@@ -5,3 +5,9 @@
   padding: 92px 48px 24px 48px;
   margin: 0;
 }
+
+@media (max-width: 768px) {
+  .footer__link-list {
+    flex-direction: column;
+  }
+}

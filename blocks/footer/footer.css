@@ -1,5 +1,11 @@
 .footer {
   display: flex;
   flex-direction: row;
-  justify-content:space-between;
+  justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+  }
 }

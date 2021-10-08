@@ -3,4 +3,19 @@
   flex-direction: column;
   margin: 0 auto;
   max-width: 984px;
+  padding-top: 92px;
+}
+
+@media (max-width: 1024px) {
+  .intro {
+    padding-top: 88px;
+    max-width: calc(100% - 48px);
+  }
+}
+
+@media (max-width: 768px) {
+  .intro {
+    padding-top: 64px;
+    max-width: calc(100% - 32px);
+  }
 }

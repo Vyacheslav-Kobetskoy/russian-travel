@@ -1,5 +1,13 @@
-.header__logo{
-  width: 176px;
-  height: 52px;
+.header__logo {
+  min-width: 176px;
+  min-height: 52px;
   background-image: url(../../../images/header-logo.svg);
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 768px) {
+  .header__logo {
+    min-height: 42px;
+    background-size: 142px 42px;
+  }
 }
