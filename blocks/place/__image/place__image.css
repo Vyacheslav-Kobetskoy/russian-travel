@@ -5,7 +5,7 @@
 
 @media (max-width: 768px) {
   .place__image {
-    min-width: calc(100% + 32px);
+    width: calc(100% + 32px);
     margin-left: -16px;
   }
 }

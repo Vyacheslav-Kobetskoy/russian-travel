@@ -9,5 +9,6 @@
 @media (max-width: 768px) {
   .footer__link-list {
     flex-direction: column;
+    padding:0;
   }
 }

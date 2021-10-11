@@ -1,12 +1,14 @@
 .cover {
   margin: 0 auto;
+
   background-image: url(../../images/cover-trains.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
+  background-position: center;
   position: relative;
   z-index: 1;
   max-width: 1184px;
-  min-height: 740px;
+  min-height: calc(100vw / (1024 / 640));
 }
 
 .cover::after {
@@ -24,3 +26,10 @@
 .cover:hover:after {
   opacity: 0.8;
 }
+
+@media (min-width: 1184px) {
+  .cover {
+    min-height: 720px;
+  }
+}
+

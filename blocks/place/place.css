@@ -5,14 +5,21 @@
   padding-bottom: 80px;
 }
 
+.place:last-child {
+  padding-bottom: 0px;
+}
+
 @media (max-width: 1024px) {
   .place {
     grid-template-columns: 340px 1fr;
+    padding-bottom: 73px;
   }
 }
 
 @media (max-width: 768px) {
   .place {
     grid-template-columns: 1fr;
+    row-gap: 32px;
+    padding-bottom: 50px;
   }
 }

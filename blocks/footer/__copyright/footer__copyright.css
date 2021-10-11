@@ -3,9 +3,16 @@
   justify-content: flex-end;
   padding: 94px 48px 24px 0;
   margin: 0;
-  
+
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 16px;
+}
+
+@media (max-width: 768px) {
+  .footer__copyright {
+    justify-content: flex-start;
+    padding: 48px 0 24px;
+  }
 }

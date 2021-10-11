@@ -4,4 +4,19 @@
   font-size: 18px;
   line-height: 163%;
   margin: 0;
+  width: 100%;
+  padding-bottom: 26px;
+}
+
+@media (max-width: 768px) {
+  .place__paragraph-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 163%;
+  }
+}
+
+.place__paragraph-text:last-child{
+  padding-bottom: 0;
 }

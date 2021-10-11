@@ -1,4 +1,5 @@
 @import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
 @import url(../blocks/container/container.css);
 @import url(../blocks/page/page.css);
 
@@ -57,7 +58,7 @@
 @import url(../blocks/footer/__link-list/footer__link-list.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
-@import url();
+@import url(../blocks/footer/__list-item/footer__list-item.css);
 @import url();
 @import url();
 @import url();
