@@ -29,7 +29,6 @@
 
 @media (min-width: 1184px) {
   .cover {
-    min-height: 720px;
+    min-height: 740px;
   }
 }
-

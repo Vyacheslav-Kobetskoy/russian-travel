@@ -10,7 +10,13 @@
   line-height: 16px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1023px) {
+  .footer__copyright {
+    padding: 88px 24px 24px 0;
+  }
+}
+
+@media (max-width: 767px) {
   .footer__copyright {
     justify-content: flex-start;
     padding: 48px 0 24px;

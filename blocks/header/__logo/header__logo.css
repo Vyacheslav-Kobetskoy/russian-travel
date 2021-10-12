@@ -5,7 +5,7 @@
   background-repeat: no-repeat;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .header__logo {
     min-height: 42px;
     background-size: 142px 42px;

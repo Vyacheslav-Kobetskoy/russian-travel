@@ -8,15 +8,18 @@
   padding-bottom: 26px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1023px) {
   .place__paragraph-text {
-    font-style: normal;
-    font-weight: normal;
     font-size: 16px;
-    line-height: 163%;
   }
 }
 
-.place__paragraph-text:last-child{
+@media (max-width: 767px) {
+  .place__paragraph-text {
+    font-size: 16px;
+  }
+}
+
+.place__paragraph-text:last-child {
   padding-bottom: 0;
 }

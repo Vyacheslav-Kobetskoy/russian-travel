@@ -2,13 +2,19 @@
   display: flex;
   flex-direction: row;
   list-style-type: none;
-  padding: 92px 48px 24px 48px;
+  padding: 92px 0 24px 48px;
   margin: 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1023px) {
+  .footer__link-list {
+    padding: 88px 0 24px 24px;
+  }
+}
+
+@media (max-width: 767px) {
   .footer__link-list {
     flex-direction: column;
-    padding:0;
+    padding: 0;
   }
 }
