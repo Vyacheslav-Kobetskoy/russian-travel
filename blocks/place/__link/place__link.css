@@ -1,6 +1,7 @@
 .place__link {
   padding-top: 12px;
 
+  align-self: flex-start;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;

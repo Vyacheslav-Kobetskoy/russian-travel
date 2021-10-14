@@ -2,10 +2,3 @@
   width: 100%;
   object-fit: contain;
 }
-
-@media (max-width: 767px) {
-  .place__image {
-    width: calc(100% + 32px);
-    margin-left: -16px;
-  }
-}

@@ -5,6 +5,11 @@
   font-size: 16px;
   line-height: 18px;
   color: #ffffff;
+  transition: opacity 1s ease-in-out;
+}
+
+.footer__link:hover {
+  opacity: 0.8;
 }
 
 @media (max-width: 767px) {
